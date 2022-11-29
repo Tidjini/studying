@@ -5,10 +5,13 @@ MODELS NOTES
 - models should be clean from import, especially with importing views or other top level imports.
 - Modelisation is very important in this stage **[STRUCTURAL PATTERN]** with 1st, 2dn, 3rd normal forms.
 - Model **Mixin**, to apply **DRY PRINCIPAL** :
-    - Django **abstract model**, using the Meta subclass to define it 
+    - Django **abstract model**, using the Meta subclass to define it:
+        
         .. code-block:: python
             :linenos:
-            :emphasize-lines: 4-5 
+            :emphasize-lines: 4-5
+            form django.db import models
+
             class TimespanModel(models.Model):
                 created_at = model.DateTimeField(auto_add_now=True)
             
