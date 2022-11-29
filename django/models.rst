@@ -24,3 +24,5 @@ MODELS NOTES
         - can not be instantiate
         - have no Foreign Key or Many to Many Relation
         - can not be query directly
+
+- You can seperate your models into differents files, you should create **models package** with **__init__.py** file inside your application.
