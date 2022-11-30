@@ -29,3 +29,4 @@ MODELS NOTES
 
 - For Postger ArrayField, must Install **psycopg2**
 - For ImageField, must install **pillow**
+- Note: Difference between Sqlite and Posgresql, when save old object (**update**) /**sqlite3.IntegrityError: UNIQUE constraint failed**/
