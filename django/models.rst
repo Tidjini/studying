@@ -26,3 +26,6 @@ MODELS NOTES
         - can not be query directly
 
 - You can seperate your models into differents files, you should create **models package** with **__init__.py** file inside your application.
+
+- For Postger ArrayField, must Install **psycopg2**
+- For ImageField, must install **pillow**
